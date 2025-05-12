@@ -42,10 +42,14 @@
         font-size: 1.5rem;
     }
 
+    .theme-box {
+        background-color: var(--bs-body-bg);
+        color: var(--bs-body-color);
+    }    
+
 </style>
 <body >
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" class="navbar bg-dark border-bottom border-body"
-        data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="/"><img src="{{ url_for('static', filename='images/logo.png') }}" alt="ImageIguana Logo" height="50"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
